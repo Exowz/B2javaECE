@@ -1,4 +1,4 @@
-package exo2;
+package VoitureV2;
 
 public class Main {
     public static void main(String[] args) {

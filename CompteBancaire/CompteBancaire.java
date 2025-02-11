@@ -1,4 +1,4 @@
-package exo3;
+package CompteBancaire;
 
 public class CompteBancaire {
     private String titulaire;

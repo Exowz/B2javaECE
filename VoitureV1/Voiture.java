@@ -1,4 +1,4 @@
-package exo1;
+package VoitureV1;
 
 // Voiture.java
 public class Voiture {

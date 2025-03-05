@@ -14,6 +14,9 @@ public class App extends Application {
 
         // Créer une scène avec le label
         Scene scene = new Scene(label, 300, 200);
+        
+        // Correction: Suppression du "name:" incorrect
+        scene.getStylesheets().add(getClass().getResource("/style.css").toExternalForm());
 
         // Configurer la fenêtre principale
         primaryStage.setTitle("Ma Première Application JavaFX");

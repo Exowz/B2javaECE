@@ -1,0 +1,32 @@
+.root {
+    -fx-background-color: #f4f4f4; /* Couleur de fond */
+    -fx-font-family: 'Arial';
+}
+
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Couleur du texte */
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+.button {
+    -fx-background-color: #4CAF50; /* Couleur de fond */
+    -fx-text-fill: white; /* Couleur du texte */
+    -fx-font-size: 14px;
+    -fx-border-radius: 5px;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: #45a049; /* Couleur au survol */
+}
+
+.button:pressed {
+    -fx-background-color: #3d8b40; /* Couleur au clic */
+}

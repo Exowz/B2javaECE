@@ -1,0 +1,10 @@
+.root {
+    -fx-background-image: url('/images/teddyprime.jpeg');
+    -fx-background-size: cover;
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.label {
+    -fx-text-fill: red;
+}

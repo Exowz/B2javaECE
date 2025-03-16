@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="menuContainer" alignment="CENTER" spacing="15" xmlns="http://javafx.com/javafx/8.0.171" 
+      xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.controllers.MenuController"
+      stylesheets="@../styles/main.css" styleClass="menu-container">
+    
+    <Label text="Bienvenue dans l'application !" styleClass="menu-title"/>
+
+    <VBox alignment="CENTER" spacing="10" styleClass="menu-options">
+        <Button text="Afficher la liste des utilisateurs" onAction="#openUserList" styleClass="menu-button"/>
+        <Button text="Rechercher un utilisateur" onAction="#openSearchUser" styleClass="menu-button"/>
+        <Button text="Déconnexion" onAction="#logout" styleClass="menu-button"/>
+    </VBox>
+</VBox>

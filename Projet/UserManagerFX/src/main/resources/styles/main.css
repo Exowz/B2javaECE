@@ -1,0 +1,111 @@
+/* === Styles globaux === */
+.root {
+    -fx-font-family: "Arial";
+    -fx-background-color: #f4f4f4;
+}
+
+/* === Styles pour les labels === */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333;
+}
+
+/* === Styles pour les titres === */
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #2c3e50;
+}
+
+/* === Styles pour les boutons === */
+.button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 15px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+}
+.button:hover {
+    -fx-background-color: #2980b9;
+}
+.button:pressed {
+    -fx-background-color: #1f618d;
+}
+
+/* === Styles pour les champs de texte === */
+.text-field, .password-field {
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+    -fx-font-size: 14px;
+}
+.text-field:focused, .password-field:focused {
+    -fx-border-color: #3498db;
+}
+
+/* === Styles pour le TableView === */
+.table-view {
+    -fx-background-color: white;
+    -fx-border-color: #bdc3c7;
+    -fx-border-width: 1px;
+    -fx-border-radius: 5px;
+}
+.table-view .column-header {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.table-row-cell:selected {
+    -fx-background-color: #85c1e9;
+}
+.table-row-cell:selected .text {
+    -fx-fill: black;
+}
+
+/* === Styles pour ImageView (profil utilisateur) === */
+.image-view {
+    -fx-border-radius: 50%;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.3), 5, 0, 0, 2);
+}
+
+/* === Styles pour le menu principal === */
+.menu-container {
+    -fx-background-color: #2c3e50;
+    -fx-padding: 20px;
+    -fx-spacing: 10px;
+    -fx-alignment: center;
+}
+
+/* === Styles des boutons du menu === */
+.menu-button {
+    -fx-background-color: #3498db;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 20px;
+    -fx-border-radius: 5px;
+    -fx-cursor: hand;
+    -fx-pref-width: 200px;
+}
+.menu-button:hover {
+    -fx-background-color: #2980b9;
+}
+.menu-button:pressed {
+    -fx-background-color: #1f618d;
+}
+
+/* === Styles du titre du menu === */
+.menu-title {
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+    -fx-padding: 10px 0;
+}
+
+/* === Styles pour le conteneur des options === */
+.menu-options {
+    -fx-spacing: 15px;
+    -fx-alignment: center;
+}
